@@ -19,3 +19,6 @@ Percentage = round((ExonNum/SeqLen)*100,2)
 
 print(Percentage , "% is coding")
 
+Intron1 = Sequence[65:91]
+
+print(Exon1.upper() + Intron1.lower() + Exon2.upper())
