@@ -18,3 +18,4 @@ ExonNum = Exon1Len+Exon2Len
 Percentage = round((ExonNum/SeqLen)*100,2)
 
 print(Percentage , "% is coding")
+
