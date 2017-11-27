@@ -5,7 +5,7 @@ TrimmedFile = open('TrimmedDNA.txt','w')
 
 for line in File:
     length = len(line)
-    TrimmedLine = line[15:length]
+    TrimmedLine = line[14:length]
     print(TrimmedLine)
     print('Trimmed line is:',len(TrimmedLine),'values long.')
     TrimmedFile.write(TrimmedLine)
