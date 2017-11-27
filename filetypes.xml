@@ -5,6 +5,7 @@
       <mapping pattern="NonCodingDNA" type="PLAIN_TEXT" />
       <mapping pattern="CodingDNA.txt" type="PLAIN_TEXT" />
       <mapping pattern="GenomicDNA" type="PLAIN_TEXT" />
+      <mapping pattern="input" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
