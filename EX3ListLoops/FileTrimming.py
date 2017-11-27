@@ -10,3 +10,5 @@ for line in File:
     print('Trimmed line is:',len(TrimmedLine),'values long.')
     TrimmedFile.write(TrimmedLine)
     TrimmedFile.write('\n')
+File.close()
+TrimmedFile.close()
