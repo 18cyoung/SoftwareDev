@@ -26,7 +26,7 @@ Sus3 = Sus3.read()
 Sus4 = Sus4.read()
 Sus5 = Sus5.read()
 
-#Finds the location of the first letter of the fragment
+#Finds the location of the first letter of each fragment for each suspect
 Frag1Sus1 = Sus1.find(Frag1)
 Frag2Sus1 = Sus1.find(Frag2)
 Frag3Sus1 = Sus1.find(Frag3)
@@ -62,7 +62,7 @@ Frag4Sus5 = Sus5.find(Frag4)
 Frag5Sus5 = Sus5.find(Frag5)
 Frag6Sus5 = Sus5.find(Frag6)
 
-#Analyses if fragment is in the suspect DNA then calculate the array location and print
+#Checks if fragment is in the suspect's DNA then calculates the array location for each fragment present per suspect
 if Frag1 in Sus1:
     print("Fragment 1 is present in suspect 1's DNA sequence.")
     print("It is at the location [",Frag1Sus1,",",(Frag1Sus1+len(Frag1)),"]")
