@@ -26,7 +26,7 @@ Sus3 = Sus3.read()
 Sus4 = Sus4.read()
 Sus5 = Sus5.read()
 
-#Finds the location of the first letter of each fragment for each suspect
+#Finds the location of the first letter of each fragment for each suspect (if fragment is found)
 Frag1Sus1 = Sus1.find(Frag1)
 Frag2Sus1 = Sus1.find(Frag2)
 Frag3Sus1 = Sus1.find(Frag3)
